@@ -6,7 +6,11 @@ class Sets{
     this.has = has;
   }
   isEqual(other_set){
-   console.log('this set ' + this.add + ' contains the same elements');
+   if (firstset == other_set){
+     console.log('this set ' + this.add + ' contains the same elements');
+   } else {
+     console.log('this set ' + this.add + ' does not contain the same elements');
+   }
   }
   toArray(){
     console.log('this set ' + this.remove + ' is a copy of this array');
